@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1FCF7"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:src="@drawable/slide3"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Repay after 15 days                    at 0% interest"
+        android:textStyle="normal"
+        android:textSize="28sp"
+        android:textColor="#2F414E"
+        android:fontFamily="sans-serif-thin"
+        android:textFontWeight="700"
+        android:lines="2"
+        android:gravity="left"
+        android:maxLines="2"
+        android:id="@+id/text1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="You can use any of payment method to repay your credit bill on cheq"
+        android:lines="2"
+        android:maxLines="2"
+        android:textFontWeight="300"
+        android:textColor="#2F414E"
+        android:textSize="16sp"/>
+
+
+
+
+</RelativeLayout>
